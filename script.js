@@ -39,6 +39,11 @@ document.addEventListener('DOMContentLoaded', () => {
           question: 'What is the purpose of the "git stash" command?',
           choices: ['To permanently delete changes', 'To save changes temporarily and revert to the last commit', 'To publish changes to a remote repository'],
           correctAnswer: 1
+        },
+        {
+          question: 'What is the cardinal sin of Git?',
+          choices: ['Not committing regularly', 'Forgetting to create branches', 'Pushing directly onto main'],
+          correctAnswer: 2
         }
       ];
   
