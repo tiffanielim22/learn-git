@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #89c4f4;
+  background-color: #345995;
   color: #fff;
   padding: 10px;
 }
@@ -45,20 +45,24 @@ form label {
   margin-top: 10px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 5px;
   margin-bottom: 10px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #345995;
 }
 
 button[type="submit"] {
   padding: 5px 10px;
-  background-color: #89c4f4;
+  background-color: #345995;
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
 button[type="submit"]:hover {
-  background-color: #7ca7c9;
+  background-color: #2a4774;
 }
