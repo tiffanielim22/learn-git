@@ -69,9 +69,13 @@ document.addEventListener('DOMContentLoaded', () => {
       question: 'What does "git pull" do?',
       choices: ['Fetches changes from a remote repository and merges them into the current branch', 'Synchronizes the local repository with a remote repository', 'Adds changes to the staging area'],
       correctAnswer: 0
-    }
-  ];
-  
+    },
+        {
+          question: 'What is the cardinal sin of Git?',
+          choices: ['Not committing regularly', 'Forgetting to create branches', 'Pushing directly onto main'],
+          correctAnswer: 2
+        }
+      ];
   
     let currentQuestionIndex = 0;
     let score = 0;
