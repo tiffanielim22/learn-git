@@ -14,8 +14,33 @@ document.addEventListener('DOMContentLoaded', () => {
         question: 'How can you discard local changes in Git?',
         choices: ['git reset', 'git commit', 'git revert'],
         correctAnswer: 0
-      }
-    ];
+      },
+        {
+          question: 'What Git command is used to create and switch to a new branch in one step?',
+          choices: ['git branch', 'git checkout -b', 'git merge'],
+          correctAnswer: 1
+        },
+        {
+          question: 'What is the purpose of the "git clone" command?',
+          choices: ['To create a new Git repository', 'To copy an existing Git repository to your local machine', 'To merge two branches in Git'],
+          correctAnswer: 1
+        },
+        {
+          question: 'What does "git merge" do?',
+          choices: ['Fetches changes from a remote repository', 'Synchronizes the local repository with a remote repository', 'Combines changes from one branch into another'],
+          correctAnswer: 2
+        },
+        {
+          question: 'How can you undo the last Git commit?',
+          choices: ['git reset', 'git revert', 'git checkout'],
+          correctAnswer: 0
+        },
+        {
+          question: 'What is the purpose of the "git stash" command?',
+          choices: ['To permanently delete changes', 'To save changes temporarily and revert to the last commit', 'To publish changes to a remote repository'],
+          correctAnswer: 1
+        }
+      ];
   
     let currentQuestionIndex = 0;
     let score = 0;
